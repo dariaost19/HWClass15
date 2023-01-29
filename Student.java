@@ -8,7 +8,7 @@ public class Student {
     //score > 50 - D
     //anything else - F
  char Getgrade(int score){
-     if(score>30){
+     if(score>90){
          return 'A';
      }else if(score>80){
          return 'B';
